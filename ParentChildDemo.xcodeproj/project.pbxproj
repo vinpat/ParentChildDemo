@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037360B91C35166200A2F82F /* PCDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B41C32CC7F0041D307 /* PCDAppViewController.m */; };
+		037360BA1C35166200A2F82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B11C32CC7F0041D307 /* AppDelegate.m */; };
+		037360BB1C35166200A2F82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501AE1C32CC7F0041D307 /* main.m */; };
+		037360BE1C35166200A2F82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A501BB1C32CC7F0041D307 /* LaunchScreen.storyboard */; };
+		037360BF1C35166200A2F82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A501B91C32CC7F0041D307 /* Assets.xcassets */; };
+		037360C01C35166200A2F82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A501B61C32CC7F0041D307 /* Main.storyboard */; };
 		03A501AF1C32CC7F0041D307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501AE1C32CC7F0041D307 /* main.m */; };
 		03A501B21C32CC7F0041D307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B11C32CC7F0041D307 /* AppDelegate.m */; };
 		03A501B51C32CC7F0041D307 /* PCDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B41C32CC7F0041D307 /* PCDAppViewController.m */; };
@@ -16,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037360C41C35166200A2F82F /* Target-ABC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Target-ABC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		037360C51C35166700A2F82F /* Target-ABC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Target-ABC-Info.plist"; path = "/Users/leftshifttech/Desktop/Demos/ParentChildDemo/Target-ABC-Info.plist"; sourceTree = "<absolute>"; };
 		03A501AA1C32CC7F0041D307 /* ParentChildDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParentChildDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A501AE1C32CC7F0041D307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A501B01C32CC7F0041D307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +37,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		037360BC1C35166200A2F82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03A501A71C32CC7F0041D307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				03A501AA1C32CC7F0041D307 /* ParentChildDemo.app */,
+				037360C41C35166200A2F82F /* Target-ABC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +81,7 @@
 				03A501B61C32CC7F0041D307 /* Main.storyboard */,
 				03A501B91C32CC7F0041D307 /* Assets.xcassets */,
 				03A501BB1C32CC7F0041D307 /* LaunchScreen.storyboard */,
+				037360C51C35166700A2F82F /* Target-ABC-Info.plist */,
 				03A501BE1C32CC7F0041D307 /* Info.plist */,
 				03A501AD1C32CC7F0041D307 /* Supporting Files */,
 			);
@@ -82,6 +99,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		037360B71C35166200A2F82F /* Target-ABC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037360C11C35166200A2F82F /* Build configuration list for PBXNativeTarget "Target-ABC" */;
+			buildPhases = (
+				037360B81C35166200A2F82F /* Sources */,
+				037360BC1C35166200A2F82F /* Frameworks */,
+				037360BD1C35166200A2F82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Target-ABC";
+			productName = ParentChildDemo;
+			productReference = 037360C41C35166200A2F82F /* Target-ABC.app */;
+			productType = "com.apple.product-type.application";
+		};
 		03A501A91C32CC7F0041D307 /* ParentChildDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03A501C11C32CC7F0041D307 /* Build configuration list for PBXNativeTarget "ParentChildDemo" */;
@@ -127,11 +161,22 @@
 			projectRoot = "";
 			targets = (
 				03A501A91C32CC7F0041D307 /* ParentChildDemo */,
+				037360B71C35166200A2F82F /* Target-ABC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		037360BD1C35166200A2F82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037360BE1C35166200A2F82F /* LaunchScreen.storyboard in Resources */,
+				037360BF1C35166200A2F82F /* Assets.xcassets in Resources */,
+				037360C01C35166200A2F82F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03A501A81C32CC7F0041D307 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +190,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		037360B81C35166200A2F82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037360B91C35166200A2F82F /* PCDAppViewController.m in Sources */,
+				037360BA1C35166200A2F82F /* AppDelegate.m in Sources */,
+				037360BB1C35166200A2F82F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03A501A61C32CC7F0041D307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +232,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		037360C21C35166200A2F82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Target-ABC";
+				INFOPLIST_FILE = "$(SRCROOT)/Target-ABC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.demo.Target-ABC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		037360C31C35166200A2F82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Target-ABC";
+				INFOPLIST_FILE = "$(SRCROOT)/Target-ABC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.demo.Target-ABC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		03A501BF1C32CC7F0041D307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,6 +363,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		037360C11C35166200A2F82F /* Build configuration list for PBXNativeTarget "Target-ABC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037360C21C35166200A2F82F /* Debug */,
+				037360C31C35166200A2F82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		03A501A51C32CC7F0041D307 /* Build configuration list for PBXProject "ParentChildDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -300,6 +388,7 @@
 				03A501C31C32CC7F0041D307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
