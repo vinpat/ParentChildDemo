@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037360B91C35166200A2F82F /* PCDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B41C32CC7F0041D307 /* PCDAppViewController.m */; };
 		037360BA1C35166200A2F82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B11C32CC7F0041D307 /* AppDelegate.m */; };
 		037360BB1C35166200A2F82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501AE1C32CC7F0041D307 /* main.m */; };
 		037360BE1C35166200A2F82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A501BB1C32CC7F0041D307 /* LaunchScreen.storyboard */; };
 		037360BF1C35166200A2F82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A501B91C32CC7F0041D307 /* Assets.xcassets */; };
 		037360C01C35166200A2F82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A501B61C32CC7F0041D307 /* Main.storyboard */; };
+		037360C91C3525B700A2F82F /* PCDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037360C81C3525B700A2F82F /* PCDAppViewController.m */; };
 		03A501AF1C32CC7F0041D307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501AE1C32CC7F0041D307 /* main.m */; };
 		03A501B21C32CC7F0041D307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B11C32CC7F0041D307 /* AppDelegate.m */; };
 		03A501B51C32CC7F0041D307 /* PCDAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A501B41C32CC7F0041D307 /* PCDAppViewController.m */; };
@@ -24,6 +24,8 @@
 /* Begin PBXFileReference section */
 		037360C41C35166200A2F82F /* Target-ABC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Target-ABC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037360C51C35166700A2F82F /* Target-ABC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Target-ABC-Info.plist"; path = "/Users/leftshifttech/Desktop/Demos/ParentChildDemo/Target-ABC-Info.plist"; sourceTree = "<absolute>"; };
+		037360C71C3525B700A2F82F /* PCDAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCDAppViewController.h; sourceTree = "<group>"; };
+		037360C81C3525B700A2F82F /* PCDAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCDAppViewController.m; sourceTree = "<group>"; };
 		03A501AA1C32CC7F0041D307 /* ParentChildDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParentChildDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A501AE1C32CC7F0041D307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A501B01C32CC7F0041D307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037360C61C3525B700A2F82F /* TargetABC */ = {
+			isa = PBXGroup;
+			children = (
+				037360C71C3525B700A2F82F /* PCDAppViewController.h */,
+				037360C81C3525B700A2F82F /* PCDAppViewController.m */,
+			);
+			path = TargetABC;
+			sourceTree = "<group>";
+		};
 		03A501A11C32CC7F0041D307 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +85,7 @@
 		03A501AC1C32CC7F0041D307 /* ParentChildDemo */ = {
 			isa = PBXGroup;
 			children = (
+				037360C61C3525B700A2F82F /* TargetABC */,
 				03A501B01C32CC7F0041D307 /* AppDelegate.h */,
 				03A501B11C32CC7F0041D307 /* AppDelegate.m */,
 				03A501B31C32CC7F0041D307 /* PCDAppViewController.h */,
@@ -194,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037360B91C35166200A2F82F /* PCDAppViewController.m in Sources */,
+				037360C91C3525B700A2F82F /* PCDAppViewController.m in Sources */,
 				037360BA1C35166200A2F82F /* AppDelegate.m in Sources */,
 				037360BB1C35166200A2F82F /* main.m in Sources */,
 			);
